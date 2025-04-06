@@ -23,7 +23,7 @@ jobs:
           cd /home/crud_project
           source env/bin/activate
           cd github-automation-aws/
-          git pull origin main
+          git pull origin master
           pip install -r requirements.txt
           python3 manage.py migrate --noinput
           python3 manage.py collectstatic --noinput
