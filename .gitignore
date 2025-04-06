@@ -1,0 +1,65 @@
+# Python bytecode files
+*.pyc
+*.pyo
+__pycache__/
+
+# Virtual environments
+venv/
+env/
+ENV/
+*.env
+
+# Django stuff:
+*.log
+*.pot
+*.pyc
+*.pyo
+*.db
+*.sqlite3
+*.bak
+*.swp
+*.swo
+*.swn
+
+# Django migrations
+*/migrations/*
+
+# Media and Static files
+/media/
+static/
+
+# Django secrets file
+*.env
+
+# IDEs and Editors
+.vscode/
+.idea/
+
+# Operating system files
+.DS_Store
+Thumbs.db
+
+# Python egg files
+*.egg
+*.egg-info/
+
+# Packaging
+build/
+dist/
+*.tar.gz
+*.whl
+
+# Test and coverage reports
+coverage/
+*.cover
+*.tox/
+.nox/
+*.hypothesis/
+.cache/
+
+# Local settings
+local_settings.py
+
+# Other configuration files that should not be tracked
+*.bak
+
